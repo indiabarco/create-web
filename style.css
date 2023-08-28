@@ -677,37 +677,3 @@ span {
   }
 
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  
-    img {
-    margin-top: 30px;
-  }
-  
-  h1 {
-    font-size: 3em;
-  }
-  
-  h2 {
-    font-size: 1em;
-  }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  
-    img {
-    margin-top: 30px;
-  }
-  
-  h1 {
-    font-size: 3em;
-  }
-  
-  h2 {
-    font-size: 1em;
-  }
-
-}
