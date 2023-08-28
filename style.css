@@ -615,17 +615,19 @@ span {
 
 @media only screen and (min-width: 375px) 
 and (max-width: 812px){ 
-      img {
-  margin-top: 30px;
-}
+    img {
+      margin-top: 15px;
+    }
 
-h1 {
-  font-size: 3em;
-}
+    h1 {
+      font-size: 2em;
+    }
 
-h2 {
-  font-size: 1em;
-}
+    h2 {
+      margin-top: 50px;
+      margin-bot: 5px;
+      font-size: 1em;
+    }
 }
 
 @media only screen and (min-width: 375px) 
@@ -639,6 +641,8 @@ and (max-width: 812px) and (orientation: portrait) {
   }
   
   h2 {
+    margin-top: 50px;
+    margin-bot: 5px;
     font-size: 1em;
   }
 }
@@ -654,6 +658,8 @@ and (max-width: 812px) and (orientation: landscape) {
   }
   
   h2 {
+    margin-top: 50px;
+    margin-bot: 5px;
     font-size: 1em;
   }
 }
