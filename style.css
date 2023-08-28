@@ -616,7 +616,7 @@ span {
 @media only screen and (min-width: 375px) 
 and (max-width: 812px){ 
     img {
-      margin-top: 15px;
+      margin-top: 7px;
     }
 
     h1 {
@@ -633,7 +633,7 @@ and (max-width: 812px){
 @media only screen and (min-width: 375px) 
 and (max-width: 812px) and (orientation: portrait) { 
   img {
-    margin-top: 30px;
+    margin-top: 7px;
   }
   
   h1 {
@@ -650,7 +650,7 @@ and (max-width: 812px) and (orientation: portrait) {
 @media only screen and (min-width: 375px) 
 and (max-width: 812px) and (orientation: landscape) { 
   img {
-    margin-top: 30px;
+    margin-top: 7px;
   }
   
   h1 {
