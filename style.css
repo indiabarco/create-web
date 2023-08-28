@@ -6,34 +6,41 @@
 }
 body {
   background-color: #212121;
-}
-canvas {
+} 
+
+canvas{
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -1;
+  z-index:-1;
 }
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+		
+canvas{
+			position: absolute;
+			top:0;
+			left:0;
 }
-#social {
+
+#social { 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   column-gap: 25px;
 }
-#social img {
+
+#social img{
   width: 45px;
 }
+
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
 }
+
 input[type=text] {
   width: 130px;
   box-sizing: border-box;
@@ -41,57 +48,68 @@ input[type=text] {
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-position: 10px 10px;
+  background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   transition: width 0.4s ease-in-out;
 }
+
 h1 {
   color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  /* color: rgba(255, 255, 255, 0.781); */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   font-family: 'Franklin Gothic Medium', Arial, sans-serif, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 5em;
   text-align: center;
+  
   -webkit-animation: horror-animation 3s infinite;
   -moz-animation: horror-animation 3s infinite;
   -o-animation: horror-animation 3s infinite;
   animation: horror-animation 3s infinite;
+
   max-width: 100%;
 }
+
 h2 {
-  color: rgba(255,255,255,0.781);
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+color: rgba(255, 255, 255, 0.781);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   font-family: 'Franklin Gothic Medium', Arial, sans-serif, Arial, Helvetica, sans-serif;
   letter-spacing: 4px;
   font-size: 2em;
+  
   margin-top: 110px;
   margin-bot: 30px;
   text-align: center;
+
   max-width: 100%;
 }
+
 span {
   font-size: 0.5em;
 }
+
+
 @-webkit-keyframes horror-animation {
   0% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     left: 51%;
     top: 36%;
   }
   5% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 50%;
     top: 35%;
   }
   10% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
     top: 34%;
   }
   15% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
     top: 35%;
   }
@@ -100,23 +118,23 @@ span {
     left: 50%;
   }
   17% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   20% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 49%;
   }
   25% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 49%;
   }
   30% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     left: 50%;
   }
   35% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   36% {
@@ -124,23 +142,23 @@ span {
     left: 50%;
   }
   37% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   40% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.9);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     left: 51%;
   }
   45% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 51%;
   }
   50% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     left: 51%;
   }
   55% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 50%;
   }
   56% {
@@ -148,23 +166,23 @@ span {
     left: 50%;
   }
   57% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 52%;
   }
   60% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
   65% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   70% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
   }
   75% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   76% {
@@ -172,15 +190,15 @@ span {
     left: 50%;
   }
   77% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   80% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     left: 49%;
   }
   85% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   86% {
@@ -188,40 +206,40 @@ span {
     left: 50%;
   }
   87% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   90% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     left: 51%;
   }
   95% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 51%;
   }
   100% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
 }
 @-moz-keyframes horror-animation {
   0% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     left: 51%;
     top: 36%;
   }
   5% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 50%;
     top: 35%;
   }
   10% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
     top: 34%;
   }
   15% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
     top: 35%;
   }
@@ -230,23 +248,23 @@ span {
     left: 50%;
   }
   17% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   20% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 49%;
   }
   25% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 49%;
   }
   30% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     left: 50%;
   }
   35% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   36% {
@@ -254,23 +272,23 @@ span {
     left: 50%;
   }
   37% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   40% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.9);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     left: 51%;
   }
   45% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 51%;
   }
   50% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     left: 51%;
   }
   55% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 50%;
   }
   56% {
@@ -278,23 +296,23 @@ span {
     left: 50%;
   }
   57% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 52%;
   }
   60% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
   65% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   70% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
   }
   75% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   76% {
@@ -302,15 +320,15 @@ span {
     left: 50%;
   }
   77% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   80% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     left: 49%;
   }
   85% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   86% {
@@ -318,40 +336,40 @@ span {
     left: 50%;
   }
   87% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   90% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     left: 51%;
   }
   95% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 51%;
   }
   100% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
 }
 @-o-keyframes horror-animation {
   0% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     left: 51%;
     top: 36%;
   }
   5% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 50%;
     top: 35%;
   }
   10% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
     top: 34%;
   }
   15% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
     top: 35%;
   }
@@ -360,23 +378,23 @@ span {
     left: 50%;
   }
   17% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   20% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 49%;
   }
   25% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 49%;
   }
   30% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     left: 50%;
   }
   35% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   36% {
@@ -384,23 +402,23 @@ span {
     left: 50%;
   }
   37% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   40% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.9);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     left: 51%;
   }
   45% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 51%;
   }
   50% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     left: 51%;
   }
   55% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 50%;
   }
   56% {
@@ -408,23 +426,23 @@ span {
     left: 50%;
   }
   57% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 52%;
   }
   60% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
   65% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   70% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
   }
   75% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   76% {
@@ -432,15 +450,15 @@ span {
     left: 50%;
   }
   77% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   80% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     left: 49%;
   }
   85% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   86% {
@@ -448,40 +466,40 @@ span {
     left: 50%;
   }
   87% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   90% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     left: 51%;
   }
   95% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 51%;
   }
   100% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
 }
 @keyframes horror-animation {
   0% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     left: 51%;
     top: 36%;
   }
   5% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 50%;
     top: 35%;
   }
   10% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
     top: 34%;
   }
   15% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
     top: 35%;
   }
@@ -490,23 +508,23 @@ span {
     left: 50%;
   }
   17% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   20% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 49%;
   }
   25% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 49%;
   }
   30% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.7);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     left: 50%;
   }
   35% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   36% {
@@ -514,23 +532,23 @@ span {
     left: 50%;
   }
   37% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 50%;
   }
   40% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.9);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
     left: 51%;
   }
   45% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
     left: 51%;
   }
   50% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     left: 51%;
   }
   55% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 50%;
   }
   56% {
@@ -538,23 +556,23 @@ span {
     left: 50%;
   }
   57% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     left: 52%;
   }
   60% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
   65% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 50%;
   }
   70% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     left: 49%;
   }
   75% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   76% {
@@ -562,15 +580,15 @@ span {
     left: 50%;
   }
   77% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     left: 49%;
   }
   80% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.1);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     left: 49%;
   }
   85% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   86% {
@@ -578,19 +596,118 @@ span {
     left: 50%;
   }
   87% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.2);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
     left: 51%;
   }
   90% {
-    text-shadow: 0 0 5px rgba(255,255,255,0.3);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
     left: 51%;
   }
   95% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     left: 51%;
   }
   100% {
-    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     left: 50%;
   }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+    img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+    img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+    img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+    img {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+
 }
